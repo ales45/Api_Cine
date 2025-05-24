@@ -393,8 +393,7 @@ Aquí hay algunos problemas comunes que podrías encontrar y sus posibles soluci
 ---
 
 ## 👨‍💻 Autor(es) del Proyecto
-
-* **<ALES REINOSO>**
-* **<GABRIEL RUIZ>**
+ALES REINOSO
+GABRIEL RUIZ
 
 ---
