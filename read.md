@@ -345,49 +345,6 @@ Para realizar pruebas de rendimiento de la API o tener un volumen de datos más 
     * El script comenzará a generar e insertar datos en ambas bases de datos (MySQL y MongoDB). Imprimirá mensajes de progreso en la consola. Este proceso puede tardar varios minutos dependiendo de la cantidad de datos a generar (los valores por defecto son 5000 para la mayoría de las entidades).
     * El script está diseñado para crear las tablas SQL si no existen, utilizando las definiciones de los modelos SQLAlchemy.
 
----
-
-/nombre_del_proyecto_cine/       <-- Carpeta raíz del proyecto
-|
-|-- .venv/                          <-- (Creada automáticamente) Carpeta del entorno virtual.
-|   |                                   Contiene las librerías de Python específicas para este proyecto.
-|   |                                   (No se debe incluir en el control de versiones, ej. .gitignore).
-|
-|-- app.py                          <-- CORAZÓN DE LA API.
-|   |                                   Contiene toda la lógica de la aplicación Flask:
-|   |                                   - Inicialización de Flask.
-|   |                                   - Configuración de SQLAlchemy y PyMongo.
-|   |                                   - Definición de los modelos ORM de SQLAlchemy para las tablas SQL.
-|   |                                   - Definición de todas las rutas (endpoints) de la API.
-|   |                                   - Lógica para las operaciones CRUD y otras consultas.
-|
-|-- ProyectoCine.sql                <-- SCRIPT DE BASE DE DATOS SQL.
-|   |                                   Contiene las sentencias DDL (Data Definition Language) para:
-|   |                                   - Crear la base de datos proyectoCine.
-|   |                                   - Crear todas las tablas (Pelicula, Sala, Cliente, Funcion, Boleto).
-|   |                                   - Crear las vistas (VistaFunciones, IngresosPorPelicula).
-|   |                                   - Crear el trigger (validar_capacidad).
-|
-|-- script.js                       <-- SCRIPT DE CONFIGURACIÓN DE MONGODB.
-|   |   (o crear_mongo_proyecto_cine.js)    Contiene comandos para mongosh para:
-|   |                                   - Crear colecciones (opcional, ya que se crean al primer insert).
-|   |                                   - Opcionalmente, insertar datos de ejemplo iniciales.
-|
-|-- poblar_datos.py                 <-- (Opcional) SCRIPT DE GENERACIÓN DE DATOS.
-|   |                                   Utiliza la librería Faker para insertar una gran cantidad
-|   |                                   de datos de prueba en ambas bases de datos (MySQL y MongoDB).
-|
-|-- README.md                       <-- ESTE ARCHIVO.
-|   |                                   Documentación principal del proyecto, explicando cómo
-|   |                                   configurarlo, ejecutarlo y utilizarlo.
-|
-|-- (opcional) requirements.txt     <-- ARCHIVO DE DEPENDENCIAS.
-|   |                                   Lista todas las librerías de Python necesarias para el proyecto
-|   |                                   y sus versiones. Permite una fácil reinstalación de
-|   |                                   dependencias en otros entornos (pip install -r requirements.txt).
-
-
----
 
 ## 🤔 Guía de Solución de Problemas Comunes (Troubleshooting)
 
