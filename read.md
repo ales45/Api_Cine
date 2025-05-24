@@ -78,7 +78,7 @@ Sigue estos pasos meticulosamente para asegurar una correcta configuración del 
 * **Opción A: Clonar el Repositorio (si está en Git)**
     Si el código fuente del proyecto está alojado en un servicio como GitHub, GitLab o Bitbucket, clónalo utilizando Git:
     ```bash
-    git clone <URL_DE_TU_REPOSITORIO_AQUI_EJ:[https://github.com/tu_usuario/tu_proyecto.git](https://github.com/tu_usuario/tu_proyecto.git)>
+    git clone <https://github.com/ales45/Api_Cine>
     cd <NOMBRE_DE_LA_CARPETA_DEL_PROYECTO_EJ:tu_proyecto>
     ```
     *Reemplaza los placeholders con la información real de tu repositorio.*
