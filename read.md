@@ -394,10 +394,7 @@ Aquí hay algunos problemas comunes que podrías encontrar y sus posibles soluci
 
 ## 👨‍💻 Autor(es) del Proyecto
 
-* **<TU_NOMBRE_COMPLETO_AQUI>**
-    * Email: `<TU_CORREO_ELECTRONICO_AQUI (opcional)>`
-    * GitHub: `<TU_USUARIO_DE_GITHUB_AQUI (opcional)>`
-
-*(Por favor, reemplaza los placeholders `<...>` con tu información personal).*
+* **<ALES REINOSO>**
+* **<GABRIEL RUIZ>**
 
 ---
